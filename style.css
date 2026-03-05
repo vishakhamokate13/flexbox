@@ -4,7 +4,7 @@
             width: 300px;
             padding: 10px;
             border-radius: 5px;
-            flex-direction: column-reverse;
+            flex-direction: row-reverse;
         }
         .item{
             background-color: aquamarine;
@@ -16,4 +16,25 @@
             border: solid 1px white;
             padding: 5px;
         }
+    
+        .containers{
+            background-color: lightseagreen;
+            height: 300px;
+            width: 300px;
+            padding: 10px;
+            border-radius: 5px;
+            display: flex;
+        }
+        .items{
+            background-color: aqua;
+            height: 20px;
+            width: 50px;
+            margin: 5px;
+            padding: 5px;
+            font-size: 20px;
+            border-radius: 10px;
+            border: solid 1px white;
+            flex-direction: row;
+        }
+
     
